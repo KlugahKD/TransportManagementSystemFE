@@ -1,0 +1,12 @@
+<div class="container">
+    <h1 class="mt-3">Register</h1>
+    <form #form="ngForm" (ngSubmit)="onFormSubmit()">
+        <input type="text" class="default-input" name="FirstName" [(ngModel)]="model.FirstName" placeholder="First Name">
+        <input type="text" class="default-input" name="LastName" [(ngModel)]="model.LastName" placeholder="Last Name">
+        <input type="text" class="default-input" name="Username" [(ngModel)]="model.Username" placeholder="Username">
+        <!-- Add a password field if needed -->
+        <!-- <input type="password" class="default-input" name="Password" [(ngModel)]="model.Password" placeholder="Password"> -->
+        <button type="submit" class="login-button">Register</button>
+    </form>
+    
+</div>

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+/* styles.scss or component-name.component.scss */
+
+
+
+
+.default-input {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    margin-bottom: 10px;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
